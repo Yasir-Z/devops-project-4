@@ -19,3 +19,6 @@ jobs:
 
       - name: Formatting test
         run: black .
+
+      - name: Lint test
+        run: flake8 .

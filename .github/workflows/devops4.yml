@@ -16,3 +16,6 @@ jobs:
 
       - name: Insetall dependencies 
         run: pip install -r requirements.txt
+
+      - name: Formatting test
+        run: black .

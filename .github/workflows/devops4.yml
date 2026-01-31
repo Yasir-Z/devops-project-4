@@ -25,3 +25,6 @@ jobs:
 
       - name: Static analysis 
         run: bandit -r . --skip B201,B101,B104
+
+      - name: Unit test
+        run pytest

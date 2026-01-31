@@ -22,3 +22,6 @@ jobs:
 
       - name: Lint test
         run: flake8 .
+
+      - name: Static analysis 
+        run: bandit -r .

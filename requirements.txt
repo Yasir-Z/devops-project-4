@@ -1,2 +1,4 @@
 black   #Formatting code
 flake8  #Liting test
+bandit  #Static analysis 
+
